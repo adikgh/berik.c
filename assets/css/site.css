@@ -510,3 +510,64 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 	.ft_b { flex-direction: column; gap: 12px; }
 	.code_in input { width: 52px; height: 58px; }
 }
+
+/* Телефон: ықшам карточкалар, кішірек 3D заттар */
+@media (max-width: 600px) {
+	.sec { padding: 56px 0; }
+	.sec_h { margin-bottom: 28px; }
+	.sec_h h2, .cta h2 { font-size: 26px; letter-spacing: -.4px; }
+	.sec_h p { font-size: 15px; }
+	.hero { padding: 24px 0 56px; }
+	.hero_in { gap: 24px; }
+	.scene { height: 270px; }
+	.lap { right: 18%; bottom: 36px; }
+	.phn { width: 104px; right: 0; bottom: 16px; }
+	.tag_f { top: 44px; left: 0; z-index: 3; }
+	.sc_o1 { width: 26%; left: -4%; bottom: 8px; }
+	.sc_o2 { width: 32%; right: 16%; bottom: 0; }
+	.story_s { gap: 14px; padding: 16px 0; }
+	.story_s:first-child, .story_s:last-child { padding: 16px 0; }
+	.story_s h3 { font-size: 20px; }
+	.story_s p { font-size: 15px; margin-top: 6px; }
+	.story_mo { padding-left: 50px; margin-top: 8px; }
+	.story_mo .o3d { width: auto; height: 120px; max-width: 160px; object-fit: contain; }
+	.app, .ft { display: grid; grid-template-columns: 40px 1fr; column-gap: 12px; align-items: center; padding: 18px; }
+	.app h3, .ft h3 { margin: 0; font-size: 17px; }
+	.app ul, .ft p { grid-column: 1 / -1; margin-top: 10px; }
+	.ft p { font-size: 15px; }
+	.apps, .feat, .cards3, .cards4 { gap: 12px; }
+	.path { align-items: flex-start; gap: 14px; padding: 16px 16px 18px; }
+	.path_o { width: 64px; height: 64px; }
+	.path_t { padding-right: 36px; }
+	.path_t b { font-size: 18px; }
+	.path_t small { font-size: 14px; }
+	.path_a { position: absolute; top: 14px; right: 14px; width: 32px; height: 32px; }
+	.plan { padding: 22px 20px; }
+	.cta { padding: 32px 20px 0; }
+	.cta p { font-size: 16px; }
+	.cta_btn .btn { flex: 1; }
+	.cta_art { height: 170px; }
+	.cta_art .o3d { width: 46%; }
+	.cta_o1 { right: 4%; top: 0; }
+	.cta_o2 { left: 6%; bottom: -6%; }
+	.ph { padding-top: 24px; }
+	.ph_split { gap: 16px; }
+	.ph_split .o3d { max-width: 220px; max-height: 220px; object-fit: contain; }
+	.mod_l { grid-template-columns: 1fr; }
+	.mod_g { padding: 32px 0; gap: 16px; }
+	.mod_g h2 { font-size: 22px; }
+	.cmp_w { padding: 4px 8px; }
+	.cmp { min-width: 0; }
+	.cmp th, .cmp td { padding: 12px 4px; font-size: 14px; }
+	.cmp thead th { font-size: 14px; }
+	.cmp thead th small { font-size: 11px; }
+	.cmp th:not(:first-child), .cmp td:not(:first-child) { width: 56px; }
+	.ft_in { grid-template-columns: 1fr 1fr; gap: 28px 16px; }
+	.ft_b { align-items: flex-start; }
+	.steps { gap: 10px; }
+	.steps li { display: grid; grid-template-columns: auto 1fr; column-gap: 12px; row-gap: 4px; align-items: center; padding: 16px 18px; }
+	.steps .tk { margin: 0; }
+	.steps small { grid-column: 2; font-size: 14px; }
+	.tbl th, .tbl td { padding: 10px 6px; font-size: 14px; }
+	.tbl .r { white-space: nowrap; }
+}
