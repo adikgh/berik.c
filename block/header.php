@@ -3,6 +3,7 @@
 		['/features/', w('Мүмкіндіктер'), 'features'],
 		['/cafe/', w('Кафеге'), 'cafe'],
 		['/courier/', w('Доставкаға'), 'courier'],
+		['/app/', w('Программа'), 'app'],
 		['/price/', w('Тарифтер'), 'price'],
 		['/contacts/', w('Байланыс'), 'contacts'],
 	];

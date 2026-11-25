@@ -7,7 +7,7 @@
 		</div>
 		<div class="ft_col">
 			<b><?=we('Өнім')?></b>
-			<a href="/features/"><?=we('Мүмкіндіктер')?></a><a href="/price/"><?=we('Тарифтер')?></a><a href="/cafe/"><?=we('Кафеге')?></a><a href="/courier/"><?=we('Доставкаға')?></a>
+			<a href="/features/"><?=we('Мүмкіндіктер')?></a><a href="/price/"><?=we('Тарифтер')?></a><a href="/cafe/"><?=we('Кафеге')?></a><a href="/courier/"><?=we('Доставкаға')?></a><a href="/app/"><?=we('Windows программасы')?></a>
 		</div>
 		<div class="ft_col">
 			<b><?=we('Бастау')?></b>
